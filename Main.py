@@ -183,7 +183,7 @@ def main(dataset_name, bow_gram, stop_words, word_type):
 if __name__ == '__main__':
     dataset_name = 'all_sentiment_shuffled.txt'
     bow_gram = 2
-    stop_words = "english"
+    stop_words = None
     word_type = "absence"
 
     main(dataset_name, bow_gram, stop_words, word_type)
